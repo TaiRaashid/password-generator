@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #1F2937;
+    width: 550px;
+    height: 550px;
+    margin-top: 64px;
+    margin-left: 62px;
+}
+.green{
+    color:#10B981;
+}
+h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+p{
+    color: #D5D4D8;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+}
+#generate,#nosymbol{
+    background-color: #10B981;
+    width: 211px;
+    min-height:3rem;
+    margin-right: 1rem;
+    padding: 9px 17px 9px 15px;
+    margin-top: 4rem;
+    gap: 12px;
+    border-radius: 6px;
+}
+hr{
+    border: 1px solid #2F3E53
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+}
+#buttonone,#buttontwo{
+width: 211px;
+height: 39px;
+border-radius: 6px;
+background: #273549;
+color: azure;
+}
